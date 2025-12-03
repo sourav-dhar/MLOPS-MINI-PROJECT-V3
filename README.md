@@ -75,7 +75,7 @@ git commit -m "Initial project setup with cookiecutter"
 
 ```bash
 # Add remote
-git remote add origin https://github.com/<username>/<repo-name>.git
+git remote add origin https://github.com/sourav-dhar/MLOPS-MINI-PROJECT-V3.git
 
 # Push to GitHub
 git branch -M main
