@@ -77,11 +77,12 @@ os.environ["MLFLOW_TRACKING_USERNAME"] = dagshub_token
 os.environ["MLFLOW_TRACKING_PASSWORD"] = dagshub_token
 
 dagshub_url = "https://dagshub.com"
-repo_owner = "campusx-official"
-repo_name = "mlops-mini-project"
+repo_owner = "souravdhars03"
+repo_name = "MLOPS-MINI-PROJECT-V3"
 
 # Set up MLflow tracking URI
 mlflow.set_tracking_uri(f'{dagshub_url}/{repo_owner}/{repo_name}.mlflow')
+#dagshub.init(repo_owner='dharsourav03', repo_name='MLOPS-MINI-PROJECT-V3', mlflow=True)
 
 app = Flask(__name__)
 
