@@ -16,7 +16,7 @@ os.environ["MLFLOW_TRACKING_USERNAME"] = dagshub_token
 os.environ["MLFLOW_TRACKING_PASSWORD"] = dagshub_token
 
 dagshub_url = "https://dagshub.com"
-repo_owner = "souravdhars03"
+repo_owner = "dharsourav03"
 repo_name = "MLOPS-MINI-PROJECT-V3"
 
 # Set up MLflow tracking URI
