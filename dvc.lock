@@ -64,8 +64,8 @@ stages:
     deps:
     - path: data/processed
       hash: md5
-      md5: 3fa24de4b800b18bfcd1af8997fde222.dir
-      size: 103818916
+      md5: 170c73638f4b15477487e434933f26c7.dir
+      size: 62302916
       nfiles: 2
     - path: src/model/model_building.py
       hash: md5
@@ -74,8 +74,8 @@ stages:
     outs:
     - path: models/model.pkl
       hash: md5
-      md5: 0d82548bd9994a30983c933f5caec9e5
-      size: 40716
+      md5: 3a52e9c73a1a696c00c4d0f9f895d3a9
+      size: 24716
   model_evaluation:
     cmd: python src/model/model_evaluation.py
     deps:
