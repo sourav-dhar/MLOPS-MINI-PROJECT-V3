@@ -306,6 +306,8 @@ Enter your credentials when prompted:
 ### 23. Add S3 Remote to DVC
 
 ```bash
+# to remove existing-
+dvc remote remove myremote
 # Add S3 remote
 dvc remote add -d myremote s3://campusx-bucket
 
